@@ -1,0 +1,119 @@
+{
+    "php": [
+        {
+            "name": "Practical 1",
+            "code": "<?php\necho 'hello world'\n?>",
+            "output": "Hello world"
+        },
+        {
+            "name": "Practical 2",
+            "code": "<?php\n\n    $a = 2;\n    $b = 3;\n    $c = 7;\n\n    echo $a + $b + $c;\n?>",
+            "output": "12"
+        },
+        {
+            "name": "Practical 3",
+            "code": "<?php\n    $a = 34;\n    $b = 46;\n    $c = 28;\n\n    echo 'Average ', ($a + $b + $c)/2;\n?>",
+            "output": "54"
+        },
+        {
+            "name": "Practical 4",
+            "code": "<?php\n\n    $a = 'hello';\n    $b = 'php';\n\n    echo $a.' '.$b;\n?>",
+            "output": "hello php"
+        },
+        {
+            "name": "Practical 5",
+            "code": "<?php\n    $a = 12;\n    $b = 17;\n    $c = 0;\n\n    echo 'Before swapping: <br />\n    a = $a, b = $b <br /><br />';\n\n    $c = $a;\n    $a = $b;\n    $b = $c;\n\n    echo 'After swapping: <br />\n    a = $a, b = $b\n    '\n?>",
+            "output": "Before swapping:\na = 12, b = 17\n\nAfter swapping:\na = 17, b = 12"
+        },
+        {
+            "name": "Practical 6",
+            "code": "<?php\n\n    $p = 14;\n    $q = 24;\n\n    echo 'Before swapping P: $p Q: $q <br />';\n\n    list($p, $q) = array($q, $p);\n\n    echo 'After swapping P: $p Q: $q';\n\n?>",
+            "output": "Before swapping P: 14 Q: 24\nAfter swapping P: 24 Q: 14"
+        },
+        {
+            "name": "Practical 7",
+            "code": "<?php\n$a = 50;\n$b = 10;\n$sum = $a  + $b ;\n$sub = $a  - $b ;\n$mul = $a  * $b ;\n$div = $a  / $b ;\n?>\n<html>\n    <body>                \n\n        <table border='1px'>\n            <tr>\n                <th>Addition</th>\n                <th>substraction</th>\n                <th>multiplication</th>\n                <th>division</th>\n            </tr>\n            <tr>\n                <td><?php echo $sum ?> </td>\n                <td><?php echo $sub ?></td>\n                <td><?php echo $mul ?></td>\n                <td><?php echo $div ?></td>\n            </tr>\n\n        </table>    \n\n    </body>\n</html>",
+            "output": "Addition   substraction   multiplication   division\n60   40   500   5"
+        },
+        {
+            "name": "Practical 8",
+            "code": "<?php\n\n$a = 5 ;\n$b = '5' ;\n\nif($a == $b)\n{\n    echo 'equal';\n}\nelse{\n    echo 'not equal';\n\n}\n\n?>",
+            "output": "not equal"
+        },
+        {
+            "name": "Practical 9",
+            "code": "<?php\n\n$a = 5;\n$b = '5' ;\n\nif($a === $b)\n{\n    echo 'identical';\n}\nelse{\n    echo 'not identical';\n?>",
+            "output": "not identical"
+        },
+        {
+            "name": "Practical 10",
+            "code": "<?php\n    $a = 10;\n\n    if($a>0) {\n        echo 'Positive number';\n    } else {\n        echo 'Negative number'\n    }\n?>",
+            "output": "Positive number"
+        },
+        {
+            "name": "Practical 11",
+            "code": "<?php\n    $a = 10;\n\n    if($a%2==0) {\n        echo 'Even number';\n    } else {\n        echo 'Odd number'\n    }\n?>",
+            "output": "Evan number"
+        },
+        {
+            "name": "Practical 12",
+            "code": "<?php\n    function checkNums($a) {\n    if($a%7==0) {\n        echo 'Divisible by 7';\n    } else if($a%13==0) {\n        echo 'Divisible by 13';\n    } else {\n        echo 'Not Divisible by 13 or 7';\n    }\n}\ncheckNums(21);\n?>",
+            "output": "Divisible by 7"
+        },
+        {
+            "name": "Practical 13",
+            "code": "<?php\n    for ($i=1; $i<=4 ; $i++) {\n        for ($j=1; $j<=$i ; $j++) { \n            echo $j;\n        }\n        echo '<br/>';\n    }\n?>",
+            "output": "1\n12\n123\n1234"
+        },
+        {
+            "name": "Practical 14",
+            "code": "<?php\n    for ($i=1; $i<=4 ; $i++) {\n        for ($j=1; $j<=$i ; $j++) { \n            echo $i;\n        }\n        echo '<br/>';\n    }\n?>",
+            "output": "1\n22\n333\n4444"
+        },
+        {
+            "name": "Practical 15",
+            "code": "<?php\n    for($i=4;$i>=1;$i--){\n        for($j=1;$j<=$i;$j++){\n            echo $j;\n        }\n        echo '<br>';\n    }\n\n    echo '<br>';\n?>",
+            "output": "1234\n123\n12\n1"
+        },
+        {
+            "name": "Practical 16",
+            "code": "<?php\n    for($i=4;$i>=1;$i--){\n        for($j=1;$j<=$i;$j++){\n            echo $i;\n        }\n        echo '<br>';\n    }\n\n    echo '<br>';\n?>",
+            "output": "4444\n333\n22\n1"
+        },
+        {
+            "name": "Practical 17",
+            "code": "<center>\n    <style>\n        body{\n            margin: 0;\n            padding: 0;\n            background: #333333            \n\n        }\n        table{\n            border-collapse: collapse;\n            border: 2px solid #fff;\n        }\n        h1{\n            color: #000;\n            background: #333333;\n            font-family: sans-serif;\n            padding: 1rem;\n            font-weight: 700;\n            -webkit-text-stroke: 1px #fff;\n        }\n        </style>\n    <h1>Chess Board</h1>\n<table>\n    <?php\n    for ($row=1; $row<=8; $row++) {\n        echo '<tr>';\n        for ($col=1; $col<=8 ; $col++) { \n            $total = $row + $col;\n            if($total%2==0) {\n                echo '<td height='25px', width='25px' bgcolor='black'> </td>';\n            } else {\n                echo '<td height='25px', width='25px' bgcolor='#ffffff'> </td>';\n            }\n        }\n        echo '</tr>';\n    }\n    ?>\n</table>\n </center>",
+            "output": "Chass Board link:\nhttps://cdn.discordapp.com/attachments/893780673146519614/962413271300833350/Screenshot_65.png"
+        },
+        {
+            "name": "Practical 18",
+            "code": "<?php\n    function maxi($a, $b, $c) {\n        if($a>$b && $a>$c)\n        {\n            return 'A is max';\n        } else if($b>$a && $b>$c) {\n            return 'B is max';\n        } else {\n            return 'C is max';\n        }\n    }\n\n    echo maxi(20, 30, 50);\n?>",
+            "output": "C is max"
+        },
+        {
+            "name": "Practical 19",
+            "code": "<?php\n\nfunction sumdigit($n) {\n    $sum = 0;\n    while($n != 0) {\n        $reminder = $n%10;\n        $sum = $sum + $reminder;\n        $n= $n/10;\n    }\n    return $sum;\n}\n\necho sumdigit(34);\n?>",
+            "output": "7"
+        },
+        {
+            "name": "Practical 20",
+            "code": "<?php\n    $n = 5;\n    $f = 1;\n    for ($i=1; $i <=$n ; $i++) { \n        $f = $f * $i;\n    }\n    echo '$f <br />';\n?>",
+            "output": "120"
+        },
+        {
+            "name": "Practical 21",
+            "code": "<?php\n    $n = 5;\n    $flag = 0;\n    for ($i=0; $i <= $n ; $i++) { \n        if($n%2==0) {\n            $flag += 1; \n        }\n    }\n    if($flag > 2) {\n        echo 'Number is not prime!';\n    } else {\n        echo 'Number is prime!';\n    }\n?>",
+            "output": "Number is prime"
+        },
+        {
+            "name": "Practical 22",
+            "code": "<?php\n    $string = 'Vinit';\n    echo 'Original: $string <br />';\n    echo 'Reversed: ',strrev($string);\n?>",
+            "output": "Original: Vinit\nReversed: tiniV"
+        },
+        {
+            "name": "Practical 23",
+            "code": "<?php\n    $string = 'tenets';\n    $reversed = strrev($string);\n\n    if($string == $reversed) {\n        echo 'Palidrom string!';\n    } else {\n        echo 'Not Palidrom string';\n    }\n?>",
+            "output": "Not Palidrom string"
+        }
+    ]
+}

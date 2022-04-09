@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background: url(./assets/bg.jpg) center / cover no-repeat;
+    height: 100vh;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content{
+    background: #ffffff95;
+    border: 2px solid #000;
+    box-shadow: 0 0 10px #000;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+h1{
+    color: #000;
+    font-weight: 800;
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+h3{
+    color: rgb(61, 60, 60);
+}
+
+.card-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card{
+    border: 3px solid #000;
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.py{
+    width: 3rem;
+    height: 3rem;
+}
+
+i{
+    font-size: 2.5rem;
+}
+
+.card:hover{
+    transform: translateY(3px);
+    background-color: #76ffb6;
+}
+
+.fa-php{
+    color: #5f00f9;
+}

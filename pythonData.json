@@ -1,0 +1,119 @@
+{
+    "python": [
+        {
+            "name": "Practical 1",
+            "code": "print(' Name: Vinit Parekh\\nAddress: Xyz sociaty, Surat, Gujarat\\n Phone number: 98989898')",
+            "output": "Name: Vinit Parekh\nAddress: Xyz sociaty, Surat, Gujarat\nPhone number: 98989898"
+        },
+        {
+            "name": "Practical 2",
+            "code": "a, b, c, d =1, 'Hello', True, 2.5 <br>print('Data types of variable:\\n a = {}\\n b = {}\\n c = {}\\n d = {}'.format(type(a), type(b), type(c), type(d)))",
+            "output": " Data types of variable:\n a = <class 'int'>\n b = <class 'str'>\n c = <class 'bool'>\n d = <class 'float'>"
+        },
+        {
+            "name": "Practical 3",
+            "code": "name = input('Enter your name: ')\nnumber = int(input('Enter your number: ')\nemail = input('Enter your Email ID: ')\nsalary = int(input('Enter your salary: '))\naddress = input('Enter your address: ')\nblood = input('Enter your blood group: '\ndesignation = input('Enter your designation: ')\nbirth = input('Enter your birth date: ')",
+            "output": "Enter your name: Vinit Parekh\nEnter your number: 9900990099\nEnter your Email ID: vinitsoni199@gmail.com\nEnter your salary: 95500\nEnter your address: Abc society, Surat, Gujarat.\nEnter your blood group: A+\nEnter your designation: Senior Manager\nEnter your birth date: 29-02-2003"
+        },
+        {
+            "name": "Practical 4",
+            "code": "n1 = int(input('Enter the first number: '))\nn2 = int(input('Enter the second number: '))\nchoice = int(input('What do you want to perform?\\n\n Addition....Press 1\n Substraction....Press 2\n Multiplication....Press 3\n Division....Press 4\n Modulo....Press 5\n'))\nprint('Your output:')\nif(choice == 1):\n    print(n1+n2)\nelif(choice == 2):\n    print(n1-n2)\nelif(choice == 3):\n    print(n1*n2)\nelif(choice == 4):\n    print(n1/n2)\nelif(choice == 5):\n    print(n1%n2)\nelse:\n    print('Invalid choice!')",
+            "output": "Enter the first number: 13\nEnter the second number: 25\nWhat do you want to perform?\nAddition....Press 1\nSubstraction....Press 2\nMultiplication....Press 3\nDivision....Press 4\nModulo....Press 5\n3\nYour output: 325"
+        },
+        {
+            "name": "Practical 5",
+            "code": "n1 = int(input('Enter your number: '))\nprint(' Power of {} is {}\\n Square root of {} is {}'.format(n1, n1**2, n1, n1**0.5))",
+            "output": "Enter your number: 12\nPower of 12 is 144\nSquare root of 12 is 3.4641016151377544"
+        },
+        {
+            "name": "Practical 6",
+            "code": "p = int(input('Enter principal amount: '))\nr = int(input('Enter rate of inerest: '))\nn = int(input('Enter number of years:'))\n\nprint('Interest is :', (p*r*n)/100)",
+            "output": "Enter principal amount: 1000\nEnter rate of inerest: 1\nEnter number of years: 1\nInterest is : 10.0"
+        },
+        {
+            "name": "Practical 7",
+            "code": "pi = 3.14\nshape = int(input(' 1. Circle\n 2. Triangle\n 3. Rectangle\n 4. Square\n 5. Cylinder\n Choose your shape to find the area of it:\n'))\nif(shape == 1):\n#     r = redius\n    r = int(input('Enter the radius of the circle: '))\n    print('Area of circle is :',pi*r*r)\nelif(shape == 2):\n#     h = height , b = base\n    h = int(input('Enter the height of the triangle: '))\n    b = int(input('Enter the base of the triangle: '))\n    print('Area of triangle is :',(h*b)/2)\nelif(shape == 3):\n#     w = width , l = length\n    w = int(input('Enter the width of the rectangle: '))\n    l = int(input('Enter the length of the rectangle: '))\n    print('Area of the rectangle is :',w*l)\nelif(shape == 4):\n    l = int(input('Enter the length of square: '))\n    print('Area of the square is: ',l*l)\nelif(shape == 5):\n    r = int(input('Enter the redius of the cylinder: '))\n    h = int(input('Enter the height of cylinder: '))\n    print('Area of cylinder is : ', 2*pi*r*h+2*pi*r*r)",
+            "output": " 1. Circle\n 2. Triangle\n 3. Rectangle\n 4. Square\n 5. Cylinder\n Choose your shape to find the area of it: 3\nEnter the width of the rectangle: 25\nEnter the length of the rectangle: 15\nArea of the rectangle is : 375"
+        },
+        {
+            "name": "Practical 8",
+            "code": "choice = int(input(' 1) kilometer to miles\n 2) Celsius to Fahrenheit\n 3) meter to centimeter\n 4) acer to square meter\n Choose your option from above:\n'))\nif(choice == 1):\n    k = int(input('Enter the value of in kilometer: '))\n    print('{} km = {} miles'.format(k,k*0.62137))\nelif(choice == 2):\n    c = int(input('Enter the value of celsius: '))\n    print('{} celsius = {} fahrenheit'.format(c,c*1.8+32))\nelif(choice == 3):\n    m = int(input('Enter the value of meter: '))\n    print('{} m = {} cm'.format(m,m*100))\nelif(choice == 4):\n    a = int(input('Enter the value of acer: '))\n    print('{} acer = {} square meter'.format(a,a*4047))\nelse:\n    print('invalid choice!')",
+            "output": " 1) kilometer to miles\n 2) Celsius to Fahrenheit\n 3) meter to centimeter\n 4) acer to square meter\n Choose your option from above: 2\nEnter the value of celsius: 12\n12 celsius = 53.6 fahrenheit"
+        },
+        {
+            "name": "Practical 9",
+            "code": "Error 404 Currently not found!",
+            "output": "Error 404 Currently Not Found"
+        },
+        {
+            "name": "Practical 10",
+            "code": "n1 = 15\nn2 = 25\nchoice = int(input('1...using temp\n2...using + and -\n3...using * and //\n4...using XOR\n5...using...variables\n'))\nif(choice == 1):\n    print('Using temp variable')\n    print('Before swapping:\n n1 = {}\n n2 = {}'.format(n1,n2))\n    temp = n1\n    n1 = n2\n    n2 = temp\n    print('After swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))\n\nelif(choice == 2):\n    print('Using + and -')\n    print('Before swapping:\n n1 = {}\n n2 = {}'.format(n1,n2))\n    n1 = n1 + n2\n    n2 = n1 - n2\n    n1 = n1 - n2\n    print('After swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))    \nif(choice == 3):\n    print('using * and //')\n    print('Before swapping:\n b1 = {}\n b2 = {}'.format(n1,n2))\n    n1 = n1 * n2\n    n2 = n1 / n2\n    n1 = n1 / n2\n    print('After swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))\n\nelif(choice == 4):\n    print('Using XOR operator')\n    print('Before swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))\n\n    n1 = n1 ^ n2\n    n2 = n1 ^ n2\n    n1 = n1 ^ n2\n\n    print('After swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))\n\nelif(choice == 5):\n    print('Advance python multi variable')\n    print('Before swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))\n    n1, n2 = n2, n1\n    print('After swapping:\n n1 = {}\n n2 = {}\n'.format(n1,n2))",
+            "output": "1...using temp\n2...using + and -\n3...using * and //\n4...using XOR\n5...using...variables\n5\nAdvance python multi variable\nBefore swapping:\n n1 = 15\n n2 = 25\n\nAfter swapping:\n n1 = 25\n n2 = 15"
+        },
+        {
+            "name": "Practical 11",
+            "code": "num = int(input('Enter the number: '))\n\nif(num==0):\n    print('number is zero')\nif(num>0):\n    print('number is positive')\nelse:\n    print('number is nagative')\nif(num%2==0):\n    print('number is even')\nelse:\n    print('number is odd')",
+            "output": "Enter the number: 12\nnumber is positive\nnumber is even"
+        },
+        {
+            "name": "Practical 12",
+            "code": "a  = 15\nb = 14\nc = 10\n\nif(a>b and a>c):\n    print('a is the largest number')\nelif(b>a and b>c):\n    print('b is the largest number')\nelse:\n    print('c is the largest number')",
+            "output": "a is the largest number"
+        },
+        {
+            "name": "Practical 13",
+            "code": "n = int(input('Which number of table do you want?\n'))\ncount = 1\n\nprint('\nUsing for loop:\n')\n\nfor i in range(1, 11):\n    print(n, 'x', i, '=', n*i)\n\n    print('\nUsing while loop:\n')\n\n    while count <= 10:\n    print(n, 'x', count, '=', n*count)\n    count += 1",
+            "output": "Which number of table do you want?\n12\n\nUsing for loop: 12 x 1 = 12\n12 x 2 = 24\n12 x 3 = 36\n12 x 4 = 48\n12 x 5 = 60\n12 x 6 = 72\n12 x 7 = 84\n12 x 8 = 96\n12 x 9 = 108\n12 x 10 = 120\n\nUsing while loop: 12 x 1 = 12\n12 x 2 = 24\n12 x 3 = 36\n12 x 4 = 48\n12 x 5 = 60\n12 x 6 = 72\n12 x 7 = 84\n12 x 8 = 96\n12 x 9 = 108\n12 x 10 = 120"
+        },
+        {
+            "name": "Practical 14",
+            "code": "n = int(input('Enter the number:\n'))\ni = 1\nflag = 0\nwhile i <= n:\n    if(n%i==0):\n        flag += 1\n    i += 1\nif(flag <= 2):\n    print('Number is prime.')\nelse:\n    print('Number is not prime.')",
+            "output": "Enter the number:\n17\nNumber is prime."
+        },
+        {
+            "name": "Practical 15",
+            "code": "lower_value = int(input ('Please, Enter the Lowest Range Value: '))\nupper_value = int(input ('Please, Enter the Upper Range Value: '))\n\nprint ('The Prime Numbers in the range are: ')  \nfor number in range (lower_value, upper_value + 1):  \n    if number > 1:  \n        for i in range (2, number):  \n            if (number % i) == 0:  \n                break  \n        else:  \n            print (number)",
+            "output": "Please, Enter the Lowest Range Value:\n2\nPlease, Enter the Upper Range Value: 10\nThe Prime Numbers in the range are: 2\n3\n5\n7"
+        },
+        {
+            "name": "Practical 16",
+            "code": "n = int(input('Which number of factorial do you want?\n'))\nf = 1\nfor i in range(1, n+1):\n    f = f*i\n    i +=1\nprint('Factorial of {}: {}'.format(n, f))",
+            "output": "Which number of factorial do you want?\n5\nFactorial of 5: 120"
+        },
+        {
+            "name": "Practical 17",
+            "code": "n = int(input('Enter the number of elements:\n'))\n\nnum1, num2 = 0, 1\nprint('\nFebonacci searies: \n{}\n{}'.format(num1, num2))\nfor i in range(2, n):\n    num3 = num1 + num2\n    print(num3)\n    num1, num2 = num2, num3",
+            "output": "Enter the number of elements:\n5\n\nFebonacci searies: 0\n1\n1\n2\n3"
+        },
+        {
+            "name": "Practical 18",
+            "code": "num =(input('Enter the number to check armstrong or not?\n'))\nlength = len(num)\ntemp = int(num)\nsumx=0\nfor i in range(1,(length+1)):\n    sumx = sumx + pow(temp%10,length)\n    temp = temp//10\n    print('Armstrong') if sumx == int(num) else print('Not Armstrong')",
+            "output": "Enter the number to check armstrong or not?\n153\nArmstrong"
+        },
+        {
+            "name": "Practical 19",
+            "code": "l,m = int(input('Enter start : ')), int(input('Enter end : '))\nfor i in range(l,(m+1)):\n    length = len(str(i)); temp = i; original = temp; sum = 0\n    for j in range(1,(length+1)):\n        sum = sum+ pow(temp%10,length); temp = temp//10\n    if sum == original: print(i)",
+            "output":"Enter start : 5\nEnter end : 10\n5\n6\n7\n8\n9"
+        },
+        {
+            "name": "Practical 20",
+            "code": "n = int(input('Which natural number of sum do you want?'))\nsum = 0\nfor i in range(1, n+1):\n    sum += i\nprint(sum)",
+            "output": "Which natural number of sum do you want?  : 10\n55"
+        },
+        {
+            "name": "Practical 21",
+            "code": "from datetime import date\ntoday = date.today()\nprint(today)",
+            "output": "2022-04-17"
+        },
+        {
+            "name": "Practical 22",
+            "code": "def add(x, y):\n    print(x + y)\n\ndef subtract(x, y):\n    print(x - y)\n\ndef multiply(x, y):\n    print(x * y)\n\ndef divide(x, y):\n     print(x / y)\n\nprint('Select operation.')\nprint('1.Add')\nprint('2.Subtract')\nprint('3.Multiply')\nprint('4.Divide')\nchoice = int(input('Choose method from above list'))\nn1 = int(input('Enter your first number: '))\nn2 = int(input('Enter your second number: '))\nif(choice == 1):\n    add(n1, n2)\nelif(choice == 2):\n    subtract(n1, n2)\nelif(choice == 3):\n    multiply(n1, n2)\nelif(choice == 4):\n    divide(n1, n2)\nelse:\n    print('Invalid choice!')",
+            "output": "Select operation.\n1.Add\n2.Subtract\n3.Multiply\n4.Divide\nChoose method from above list: 3\nEnter your first number: 8\nEnter your second number: 2\n16"
+        },
+        {
+            "name": "Practical 23",
+            "code": "s = 'Vinit'\nprint('Length is : ',len(s))\n\ncnt=0\nfor i in s:\n    cnt+=1\nprint('Length is : ', cnt)",
+            "output": "4"
+        }
+    ]
+}
