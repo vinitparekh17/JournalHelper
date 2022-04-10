@@ -6,6 +6,10 @@ body {
     overflow: scroll;
 }
 
+.contant{
+    margin-top: 4rem;
+}
+
 @keyframes animate {
     0% {
         background-position: 0 0;
