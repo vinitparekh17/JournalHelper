@@ -4,16 +4,14 @@ let searchInput = document.querySelector('[data-search]')
 
 let pydatas = []
 
-const onSubmit = (e) => {
-    e.preventDefault()
-    console.log(e)
+searchInput.addEventListener("input", e => {
     const value = e.target.value.toLowerCase()
     pydatas.forEach(data => {
         const isVisible =
             data.name.toLowerCase().includes(value)
         data.element.classList.toggle("hide", !isVisible)
-        })
-}
+    })
+})
 
 function display(e) {
     var inputTag = e.childNodes[3].childNodes[1].childNodes[1]
