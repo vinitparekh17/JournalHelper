@@ -6,13 +6,13 @@ let pydatas = []
 
 const onSubmit = (e) => {
     e.preventDefault()
+    console.log(e)
     const value = e.target.value.toLowerCase()
     pydatas.forEach(data => {
         const isVisible =
             data.name.toLowerCase().includes(value)
         data.element.classList.toggle("hide", !isVisible)
         })
-    })
 }
 
 function display(e) {
