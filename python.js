@@ -22,7 +22,6 @@ function display(e) {
     inputTag.classList.toggle('hide')
     outputTag.classList.toggle('hide')
     resultZone.classList.toggle('hide')
-    inputTag.classList.toggle('hide')
     var clickSound = new Audio('./assets/click.mp3')
     clickSound.play()
 }
