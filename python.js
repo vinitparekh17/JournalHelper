@@ -4,7 +4,8 @@ let searchInput = document.querySelector('[data-search]')
 
 let pydatas = []
 
-searchInput.addEventListener("input", e => {
+searchInput.addEventListener("submit", e => {
+    e.preventDefault()
     const value = e.target.value.toLowerCase()
     pydatas.forEach(data => {
         const isVisible =
