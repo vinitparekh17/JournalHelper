@@ -15,6 +15,13 @@ searchInput.addEventListener("input", e => {
 
 function display(e) {
     var inputTag = e.childNodes[3].childNodes[1].childNodes[1]
+    var codeZone = e.childNodes[3].childNodes[1].childNodes[3]
+    var outputTag = e.childNodes[3].childNodes[1].childNodes[5]
+    var resultZone = e.childNodes[3].childNodes[1].childNodes[7]
+    codeZone.classList.toggle('hide')
+    inputTag.classList.toggle('hide')
+    outputTag.classList.toggle('hide')
+    resultZone.classList.toggle('hide')
     inputTag.classList.toggle('hide')
     var clickSound = new Audio('./assets/click.mp3')
     clickSound.play()
