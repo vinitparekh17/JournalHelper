@@ -49,6 +49,8 @@ body {
 pre {
     margin: 1rem;
     padding: 1rem;
+    background: #333;
+    color: #ffffff95;
     border-radius: 20px;
     user-select: auto;
     font-size: 1rem;
